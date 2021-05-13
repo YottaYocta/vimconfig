@@ -1,3 +1,4 @@
+let $VIMCONFIGPATH = expand('<sfile>:p:h')
 syntax on
 set noerrorbells
 set tabstop=2
@@ -14,3 +15,4 @@ set nobackup
 set undodir=~/.vim/undodir
 set undofile
 set incsearch
+source $VIMCONFIGPATH/.snippets.vim
