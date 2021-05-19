@@ -1,6 +1,7 @@
 let $VIMCONFIGPATH = expand('<sfile>:p:h')
 syntax on
 set noerrorbells
+set belloff=all 
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
