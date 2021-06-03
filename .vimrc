@@ -17,3 +17,4 @@ set undodir=~/.vim/undodir
 set undofile
 set incsearch
 source $VIMCONFIGPATH/.snippets.vim
+autocmd FileType make set noexpandtab shiftwidth=8 softtabstop=0
