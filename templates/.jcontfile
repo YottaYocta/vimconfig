@@ -22,5 +22,7 @@ public class Runner
     br = new BufferedReader(new FileReader("input.in")); 
     st = new StreamTokenizer(br);
     pw = new PrintWriter(new FileWriter("input.out"));
+    
+    pw.close();
   }
 }
