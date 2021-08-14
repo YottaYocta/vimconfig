@@ -1,8 +1,10 @@
 let $VIMCONFIGPATH = expand('<sfile>:p:h')
 let g:netrw_banner = 0
-set path+=./*/*/*
+set path+=*/*/*
 set wildmenu
 syntax on
+set re=0
+
 set autoindent
 set belloff=all 
 set expandtab
