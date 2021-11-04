@@ -15,12 +15,12 @@ set noerrorbells
 set noswapfile
 set nowrap
 set nu
-set shiftwidth=4
+set shiftwidth=2
 set smartcase
 set smartindent
 set smarttab
-set softtabstop=4
-set tabstop=4
+set softtabstop=2
+set tabstop=2
 set undodir=~/.vim/undodir
 set undofile
 source $VIMCONFIGPATH/.snippets.vim
