@@ -24,4 +24,5 @@ set tabstop=2
 set undodir=~/.vim/undodir
 set undofile
 source $VIMCONFIGPATH/.snippets.vim
-autocmd FileType make set noexpandtab 
+autocmd FileType make setlocal noexpandtab 
+autocmd FileType rust setlocal shiftwidth=4 softtabstop=4 tabstop=4
