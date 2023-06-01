@@ -4,6 +4,10 @@ set path+=*/*/*
 set wildmenu
 syntax on
 set re=0
+noremap <silent> k gk
+noremap <silent> j gj
+noremap <silent> 0 g0
+noremap <silent> $ g$
 
 set autoindent
 set belloff=all 
